@@ -3,7 +3,7 @@ class ElectionsController < ProtectedController
 
   # GET /elections
   def index
-    @elections = Election.all
+    @elections = current_user.elections.all
 
     render json: @elections
   end
@@ -15,7 +15,7 @@ class ElectionsController < ProtectedController
 
   # POST /elections
   def create
-    @election = Election.new(election_params)
+    @election = current_user.elections.build(election_params)
 
     if @election.save
       render json: @election, status: :created, location: @election
@@ -41,7 +41,7 @@ class ElectionsController < ProtectedController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_election
-      @election = Election.find(params[:id])
+      @election = current_user.elections.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
