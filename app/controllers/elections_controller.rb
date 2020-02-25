@@ -1,4 +1,4 @@
-class ElectionsController < ProtectedController
+class ElectionsController < OpenReadController
   before_action :set_election, only: [:show, :update, :destroy]
 
   # GET /elections
