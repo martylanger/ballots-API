@@ -32,8 +32,8 @@ The story of the VB API is a particularly boring one. Fearful of making any mist
 
 #### ERD:
 ```
- ________	      ___________
-|	    |	    |	       |
+ ________          ___________
+|        |        |           |
 |  User  |-|-----<| Elections |
 |________|        |___________|
                   | ID   |str |
