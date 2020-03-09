@@ -40,13 +40,13 @@ The story of the VB API is a particularly boring one. Fearful of making any mist
                   | Name |str |
                   |Voting|    |
                   |method|str |
-                  |Opt1  |str |
-                  |Opt2  |str |
-                  |Opt3  |str |
-                  |Opt4  |str |
-                  |Opt5  |str |
-                  |Opt6  |str |
-                  |Opt7  |str |
-                  |Opt8  |str |
-                  |Opt9  |str |
+                  | Opt1 |str |
+                  | Opt2 |str |
+                  | Opt3 |str |
+                  | Opt4 |str |
+                  | Opt5 |str |
+                  | Opt6 |str |
+                  | Opt7 |str |
+                  | Opt8 |str |
+                  | Opt9 |str |
                   |Result|str |
