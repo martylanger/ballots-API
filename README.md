@@ -32,10 +32,10 @@ The story of the VB API is a particularly boring one. Fearful of making any mist
 
 #### ERD:
 ```
- ________	         ___________
-|	       |	      |	          |
+ ________	      ___________
+|	    |	    |	       |
 |  User  |-|-----<| Elections |
-|________|	      |___________|
+|________|        |___________|
                   | ID   |str |
                   | Name |str |
                   |Voting|    |
@@ -50,17 +50,3 @@ The story of the VB API is a particularly boring one. Fearful of making any mist
                   |Opt8  |str |
                   |Opt9  |str |
                   |Result|str |
-
-
-
-
-
-
-
-```
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact langer.marty@gmail.com
